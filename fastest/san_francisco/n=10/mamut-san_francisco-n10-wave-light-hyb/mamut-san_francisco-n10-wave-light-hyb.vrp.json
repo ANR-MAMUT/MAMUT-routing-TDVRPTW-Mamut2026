@@ -1,0 +1,77 @@
+{
+    "instance_name": "mamut-san_francisco-n10-wave-light-hyb",
+    "instance_origin": "OsmCvrpGen",
+    "benchmark_name": "Mamut2026",
+    "num_customers": 10,
+    "num_vehicles": null,
+    "vehicle_capacity": 196,
+    "coordinates": [
+        [27567.380647101618, -311.8625620472418],
+        [28864.450290335983, 475.7253024615243],
+        [22905.75741378753, -8246.171696134845],
+        [36957.000240093796, 11166.634802795998],
+        [26211.608575633025, 198.9301291623448],
+        [37739.70627827555, 11701.94491821227],
+        [28634.536127182168, -13798.429794322645],
+        [30350.190903032413, -14769.856865118567],
+        [36141.76800267264, 9455.16462351613],
+        [19907.141331464016, 8777.147550948626],
+        [14899.425815622992, 15083.337819743989]
+    ],
+    "demands": [0, 6, 5, 79, 5, 6, 9, 5, 4, 5, 8],
+    "service_times": [0.0, 741.0, 1185.0, 413.0, 88.0, 667.0, 385.0, 457.0, 934.0, 767.0, 1190.0],
+    "depot": 0,
+    "horizon": [0.0, 86400.0],
+    "td": {
+        "model": "road-graph",
+        "graph_path": "mamut-san_francisco-n10-wave-light-hyb.road.json.gz",
+        "graph_sha256": "d9910f286be738a12d88850dd97c10c29085fd8e02076857d53f71a4b6ab52bf",
+        "atf_sha256": "3d760db220994d177c4614b499f785fb8330a19228dd282e4a2f81142bc8ae03"
+    },
+    "metadata": {
+        "authors": "MAMUT-routing workbench (generated instance)",
+        "generated_at": "2026-07-07",
+        "generator": {
+            "name": "mamut-routing-workbench",
+            "stage": "td-road-graph",
+            "version": 1,
+            "traffic_model": "wave",
+            "intensity": "light",
+            "traffic_seed": 10251,
+            "city": "san_francisco"
+        },
+        "city": "san_francisco",
+        "customer_sampling": {
+            "method": "hyb",
+            "base_instance": "san_francisco_hyb-n11-k1",
+            "source_osm_file": "osmdata/San-Francisco.osm"
+        },
+        "traffic": {
+            "model": "wave",
+            "intensity": "light",
+            "seed": 10251,
+            "num_trips": 0,
+            "params": {
+                "floor_share": 0.35,
+                "min_speed_factor": 0.12,
+                "jitter": 0.08,
+                "amplitude": 0.25,
+                "center_decay_m": 3000.0
+            }
+        },
+        "notes": "Time dependence is derived from the city's OSM road network: per-edge hourly speed profiles (synthetic traffic, see metadata.traffic) are stored in the road-graph sidecar; arrival-time functions are materialized deterministically on load and pinned by td.atf_sha256."
+    },
+    "time_windows": [
+        [0.0, 86400.0],
+        [0.0, 13545.0],
+        [0.0, 12580.0],
+        [8915.0, 11680.0],
+        [0.0, 5277.0],
+        [2071.0, 19522.0],
+        [0.0, 11222.0],
+        [0.0, 11174.0],
+        [4222.0, 19372.0],
+        [0.0, 13820.0],
+        [0.0, 19415.0]
+    ]
+}
