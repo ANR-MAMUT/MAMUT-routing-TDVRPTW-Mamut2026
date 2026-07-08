@@ -11,3 +11,7 @@ All notable changes to the `Mamut2026` TDVRPTW instances and best-known solution
 ## 2026-07-08 — initial n=10 BKS seed
 
 - First `Duration` BKS published for all 60 n=10 instances: kayros 0.4.0 TD-ILS (seed 42, 30 s), costs validated by the canonical TD checker. Larger sizes remain without BKS until the dedicated seeding campaign.
+
+## 2026-07-08 — reference_lla geodetic anchor added to every instance
+
+- All 360 instance files gained the optional top-level `reference_lla` block (the city's local ENU origin as lat/lon/alt), enabling renderers to project the ENU-meter coordinates onto a map. Loading requires `mamut-routing-lib` >= 0.5.1; no sidecar, ATF, sha or BKS content changed, and regeneration remains byte-identical with the fixed builder.
