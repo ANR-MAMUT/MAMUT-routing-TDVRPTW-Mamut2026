@@ -1,0 +1,18 @@
+{
+    "instance_name": "mamut-hong_kong-n10-bpr-heavy-poi",
+    "routes": [
+        [10, 6, 8, 3, 1, 5, 9, 7, 2, 4]
+    ],
+    "cost": 14298.027937134577,
+    "metadata": {
+        "source": "kayros 0.4.0.dev0 TD-ILS (seed=42, time_limit=30.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-08T16:27:25",
+        "route_durations": [14298.027937134577],
+        "route_departure_times": [0.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 14298.027937134577,
+        "validated_num_routes": 1
+    },
+    "objective_function": "Duration"
+}

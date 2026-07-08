@@ -1,0 +1,19 @@
+{
+    "instance_name": "mamut-san_francisco-n10-bpr-heavy-poi",
+    "routes": [
+        [6, 1, 10, 5, 3],
+        [9, 2, 7, 8, 4]
+    ],
+    "cost": 15943.294722070747,
+    "metadata": {
+        "source": "kayros 0.4.0.dev0 TD-ILS (seed=42, time_limit=30.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-08T16:29:27",
+        "route_durations": [9474.414498656417, 6468.88022341433],
+        "route_departure_times": [1013.545409773132, 4330.308492714033],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 15943.294722070747,
+        "validated_num_routes": 2
+    },
+    "objective_function": "Duration"
+}

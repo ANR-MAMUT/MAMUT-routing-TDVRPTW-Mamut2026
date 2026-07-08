@@ -1,0 +1,19 @@
+{
+    "instance_name": "mamut-san_francisco-n10-wave-moderate-poi",
+    "routes": [
+        [6, 1, 9, 2, 7, 8, 4],
+        [10, 5, 3]
+    ],
+    "cost": 27121.48262491963,
+    "metadata": {
+        "source": "kayros 0.4.0.dev0 TD-ILS (seed=42, time_limit=30.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-08T16:30:06",
+        "route_durations": [19092.628116246495, 8028.854508673136],
+        "route_departure_times": [0.0, 14670.779528261115],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 27121.48262491963,
+        "validated_num_routes": 2
+    },
+    "objective_function": "Duration"
+}

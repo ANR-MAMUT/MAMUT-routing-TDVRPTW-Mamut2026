@@ -1,0 +1,18 @@
+{
+    "instance_name": "mamut-tokyo-n10-wave-moderate-poi",
+    "routes": [
+        [5, 3, 9, 8, 7, 2, 6, 4, 1, 10]
+    ],
+    "cost": 8618.762086871428,
+    "metadata": {
+        "source": "kayros 0.4.0.dev0 TD-ILS (seed=42, time_limit=30.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-08T16:30:55",
+        "route_durations": [8618.762086871428],
+        "route_departure_times": [0.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 8618.762086871428,
+        "validated_num_routes": 1
+    },
+    "objective_function": "Duration"
+}

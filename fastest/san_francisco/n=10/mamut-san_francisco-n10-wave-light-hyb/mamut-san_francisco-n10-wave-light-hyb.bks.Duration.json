@@ -1,0 +1,18 @@
+{
+    "instance_name": "mamut-san_francisco-n10-wave-light-hyb",
+    "routes": [
+        [4, 9, 10, 2, 7, 6, 5, 3, 8, 1]
+    ],
+    "cost": 12958.286720403581,
+    "metadata": {
+        "source": "kayros 0.4.0.dev0 TD-ILS (seed=42, time_limit=30.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-08T16:30:02",
+        "route_durations": [12958.286720403581],
+        "route_departure_times": [0.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 12958.286720403581,
+        "validated_num_routes": 1
+    },
+    "objective_function": "Duration"
+}
